@@ -23,6 +23,7 @@ import logging.handlers
 import os
 import sys
 import time
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from config import Config
 from strategy import ArbitrageBot
