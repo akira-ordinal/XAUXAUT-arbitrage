@@ -1,0 +1,19 @@
+# 秘密情報・実行時に生成される状態ファイルはGitに含めない
+.env
+state.json
+state.json.tmp
+bot.lock
+trades.csv
+bot.log
+bot.log.*
+cron_stdout.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
